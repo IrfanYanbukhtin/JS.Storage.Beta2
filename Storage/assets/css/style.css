@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(191, 191, 191);
+}
+body .btn {
+  background-color: purple;
+  padding: 4px 10px;
+  color: white;
+}
+body header {
+  background-color: purple;
+  padding: 20px;
+  margin-bottom: 2rem;
+}
+body header a {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+body header i {
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+}
+body header #count {
+  position: absolute;
+  top: -9px;
+  font-size: 14px;
+  background: #fff;
+  color: black;
+  padding: 3px 6px;
+  border-radius: 100%;
+}
+body .products img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 300px;
+}
+body table img {
+  height: 150px;
+}
+body .toaster {
+  background: green;
+  color: #fff;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 7px;
+  position: absolute;
+  bottom: 20px;
+  transition: 0.6s;
+  right: -20%;
+}/*# sourceMappingURL=style.css.map */
